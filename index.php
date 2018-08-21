@@ -45,13 +45,3 @@ echo "
     <li>界面什么没有美化，以后再设计</li>
 </ul>";
 ?>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?67984e7b4af1387d6fa1982a4837ebf9";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
