@@ -26,7 +26,7 @@ body{font-size:20px;}
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script>
     jQuery(document).ready(function () {
-        $.when($.ajax("52ssr.php"),$.ajax("ishadowx.php"),$.ajax("freesstoday.php"),$.ajax("weebly.php")).then(function(result1,result2,result3,result4)
+        $.when($.ajax("52ssr.php"),$.ajax("ssrcat.php"),$.ajax("freesstoday.php"),$.ajax("weebly.php")).then(function(result1,result2,result3,result4)
         {
             
             $("#d").append(result1,result2,result3,result4);
@@ -37,7 +37,7 @@ body{font-size:20px;}
 </script>
 
 <?php
-include_once("ishadowx.php");
+
 echo "
 </div><ul>
     <li>有备注的为SSR账号，没有备注的为SS账号</li>
