@@ -26,10 +26,10 @@ body{font-size:20px;}
 <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 <script>
     jQuery(document).ready(function () {
-        $.when($.ajax("52ssr.php"),$.ajax("ishadowx.php"),$.ajax("freesstoday.php")).then(function(result1,result2,result3)
+        $.when($.ajax("52ssr.php"),$.ajax("ishadowx.php"),$.ajax("freesstoday.php"),$.ajax("weebly.php")).then(function(result1,result2,result3,result4)
         {
             
-            $("#d").append(result1,result2,result3);
+            $("#d").append(result1,result2,result3,result4);
            // $("#d").append(result2);
            // $("#d").append(result3);
         });
