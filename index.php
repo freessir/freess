@@ -1,5 +1,5 @@
 <?php
-$url = "https://us.ishadowx.net";
+$url = "http://weinanlovefengjuan.club/freess";
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL,$url );
 curl_setopt($curl, CURLOPT_HEADER, 1);
